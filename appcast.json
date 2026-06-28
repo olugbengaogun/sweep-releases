@@ -2,6 +2,18 @@
   "feedVersion" : 1,
   "items" : [
     {
+      "build" : "5",
+      "edSignature" : "iq+egKM0b7OV1F12hScEMO//XpBZNt0seVjK9VNfrjcPXXtVaJAKAunimLiOUwBn26n35k/dV+/yyRyeBMBYAg==",
+      "length" : 1602597,
+      "minSystemVersion" : "14.0",
+      "notes" : "Actually reopen the window on Dock click (recreate, not just front)\n\nThe v0.3.2 reopen handler only re-fronted an existing window, so after closing\nthe window with the red ✕ it stayed gone (you had to use the menu bar). Bridge\nSwiftUI's openWindow to the AppKit reopen handler so a closed Window is properly\nrecreated: RootView registers `{ openWindow(id: \"main\") }` into WindowAccess, and\napplicationShouldHandleReopen calls it (falling back to fronting an existing\nwindow). Isolated to the window-open path; nothing else touched.\n\nCo-Authored-By: Claude Opus 4.8 (1M context) <noreply@anthropic.com>",
+      "pubDate" : "2026-06-28",
+      "sha256" : "b1f33f12a356960d301c536e525206dc122a138412694cffcb23e956c5e0849b",
+      "title" : "Sweep 0.3.3",
+      "url" : "https://github.com/olugbengaogun/sweep-releases/releases/download/v0.3.3/Sweep-0.3.3.zip",
+      "version" : "0.3.3"
+    },
+    {
       "build" : "4",
       "edSignature" : "ZB9X2dnJ9tQbgwEW3f48QUrm2/IuAbG/jVGOS1kEn6KXKu2SHYt5xwuKjDtO8g/iO8YFV5nxehQG+qITvoZpBQ==",
       "length" : 1600123,
