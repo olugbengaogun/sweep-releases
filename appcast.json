@@ -2,6 +2,18 @@
   "feedVersion" : 1,
   "items" : [
     {
+      "build" : "4",
+      "edSignature" : "ZB9X2dnJ9tQbgwEW3f48QUrm2/IuAbG/jVGOS1kEn6KXKu2SHYt5xwuKjDtO8g/iO8YFV5nxehQG+qITvoZpBQ==",
+      "length" : 1600123,
+      "minSystemVersion" : "14.0",
+      "notes" : "Make duplicate deletion provably safe (byte-verify before trashing)\n\nThe duplicate finder already grouped only on full SHA-256, but deletion trusted\nthe scan-time result. Now every removal is proven at the moment it happens:\n\n- Hashing.contentsEqual: streaming, hash-free byte-for-byte comparison; bails on\n  first difference; any read problem returns false (never a false \"equal\").\n- DuplicateEngine.remove: pick a surviving \"keeper\", and trash a candidate ONLY if\n  it is byte-identical to that keeper RIGHT NOW. Files edited/replaced since the scan\n  (TOCTOU) or unreadable are left untouched and reported as \"skipped\". The kept copy\n  must still exist or the whole group is left alone. Result: it is impossible to\n  trash a file that isn't a verified copy of one being kept.\n- Collapse hardlinks (same device+inode) so multiple paths to one physical file\n  aren't offered as independent copies that \"free\" space they don't.\n- CleanOutcome gains `skipped` (default 0, backward compatible); FilesView surfaces\n  \"N left untouched (changed since the scan)\".\n\nAlso: clicking the Dock icon now always reopens/fronts Sweep's window\n(applicationShouldHandleReopen) instead of requiring the menu bar.\n\nCo-Authored-By: Claude Opus 4.8 (1M context) <noreply@anthropic.com>",
+      "pubDate" : "2026-06-28",
+      "sha256" : "106abf56c7f110498a27832f6e214df2ba7875539624a4eee54173770f6dca31",
+      "title" : "Sweep 0.3.2",
+      "url" : "https://github.com/olugbengaogun/sweep-releases/releases/download/v0.3.2/Sweep-0.3.2.zip",
+      "version" : "0.3.2"
+    },
+    {
       "build" : "3",
       "edSignature" : "oTY6//qhyS37q9IjjkmXUHnn767LD9gFNXk4Idubt0osSJ0giylGo6hgSjp1MuWeEUYO8L9OcG0mIiNOGyNuBQ==",
       "length" : 1596859,
