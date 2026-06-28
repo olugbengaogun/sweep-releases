@@ -2,6 +2,18 @@
   "feedVersion" : 1,
   "items" : [
     {
+      "build" : "3",
+      "edSignature" : "oTY6//qhyS37q9IjjkmXUHnn767LD9gFNXk4Idubt0osSJ0giylGo6hgSjp1MuWeEUYO8L9OcG0mIiNOGyNuBQ==",
+      "length" : 1596859,
+      "minSystemVersion" : "14.0",
+      "notes" : "Harden the live updater (race/UX fixes from audit)\n\n- check(): after the network await, bail if a download/install started meanwhile\n  (don't clobber a staged update); a quiet background check that fails now restores\n  the prior state instead of showing a scary error or a false \"up to date\".\n- downloadAndStage(): ignore a second trigger (double-click / both surfaces) so two\n  stagings can't race the same temp dir.\n- MenuBarView: show a \"tap to retry\" row on failure instead of going blank.\n- install helper: never swap the bundle if the app hasn't actually quit.\n- Updater: cancel the periodic-check task on deinit.\n\nCo-Authored-By: Claude Opus 4.8 (1M context) <noreply@anthropic.com>",
+      "pubDate" : "2026-06-28",
+      "sha256" : "9e52cab6286314c131cfa6ba5cf01c7ef67eb7259a33bfb4fbf229b1d2e492bb",
+      "title" : "Sweep 0.3.1",
+      "url" : "https://github.com/olugbengaogun/sweep-releases/releases/download/v0.3.1/Sweep-0.3.1.zip",
+      "version" : "0.3.1"
+    },
+    {
       "build" : "2",
       "edSignature" : "5n7I1WfOb8rRIyw78DGBIUh+WQMRXaSy63Rt+1rpnOyk8AEW7YVP8N9phdfz5Rekb+eB8yb06DbOqz8TICmJBw==",
       "length" : 1593589,
