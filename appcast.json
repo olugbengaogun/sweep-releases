@@ -2,6 +2,18 @@
   "feedVersion" : 1,
   "items" : [
     {
+      "build" : "2",
+      "edSignature" : "5n7I1WfOb8rRIyw78DGBIUh+WQMRXaSy63Rt+1rpnOyk8AEW7YVP8N9phdfz5Rekb+eB8yb06DbOqz8TICmJBw==",
+      "length" : 1593589,
+      "minSystemVersion" : "14.0",
+      "notes" : "Updates surface on their own: periodic auto-check + menu-bar update row\n\n- Updater.startPeriodicChecks(): check on launch, then quietly every 6h while\n  running, so a new version appears without relaunching. Skips a tick while an\n  update is downloading/installing; dormant until configured; idempotent.\n- AppModel.bootstrap now starts the periodic checks instead of a one-shot check.\n- MenuBarView: a live \"Update to X / Install & Relaunch\" row in the dropdown,\n  observing the updater directly — no need to open Settings or relaunch.\n\nCo-Authored-By: Claude Opus 4.8 (1M context) <noreply@anthropic.com>",
+      "pubDate" : "2026-06-28",
+      "sha256" : "37ad5df3f3b10a012854f5d27e6f385c1e1160c97f517de901fa9ffb31179f97",
+      "title" : "Sweep 0.3.0",
+      "url" : "https://github.com/olugbengaogun/sweep-releases/releases/download/v0.3.0/Sweep-0.3.0.zip",
+      "version" : "0.3.0"
+    },
+    {
       "build" : "1",
       "edSignature" : "PrB94p5K/dSOZHnrKuDUlCS7CQyl7II/z2QXOt68Q1Xa2E4sSTypzF5y3Onxef42XI4K/NQd2rvQCdAFlrlWDw==",
       "length" : 1581819,
