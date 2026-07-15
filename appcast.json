@@ -2,6 +2,18 @@
   "feedVersion" : 1,
   "items" : [
     {
+      "build" : "10",
+      "edSignature" : "46nNNQyjD9lvMHGFmhorBqZ06cYWzHlGzCIcu2l//ZxaxnOk+kdfKphcr20YtZCNh1esvfEofcdMN6LaAwrhCw==",
+      "length" : 2429420,
+      "minSystemVersion" : "14.0",
+      "notes" : "No more stuck Trash: Sweep no longer touches macOS's own service folders in the system temp and cache areas — those were the items that refused to leave the Trash. Cleaning is calmer too: anything currently in use is quietly left for macOS to handle instead of showing an error, and caches that need an app closed first (like Safari's) wait until you quit that app.",
+      "pubDate" : "2026-07-15",
+      "sha256" : "da47adb3cc7d94d04db4756bec751928e598a871168c3982c6655a9f7fdd686c",
+      "title" : "Sweep 0.4.2",
+      "url" : "https://github.com/olugbengaogun/sweep-releases/releases/download/v0.4.2/Sweep-0.4.2.zip",
+      "version" : "0.4.2"
+    },
+    {
       "build" : "9",
       "edSignature" : "oxEr7noMRELCbf7HI51sNQ3hd3lmIMreKWhLpI16EO0m+2n7CjrHG7ht40YkPVB8lOCwEeSPuMl4nlFamFxbDA==",
       "length" : 2427198,
