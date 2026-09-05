@@ -2,6 +2,18 @@
   "feedVersion" : 1,
   "items" : [
     {
+      "build" : "15",
+      "edSignature" : "23QHzw7Z9flCL4JJTpgsktu1vfEmK8sz+Pv8kVmP0lgl8BleClfWtzEwz3TuhDjiRMODFZkX2fbk0GkYXef8DQ==",
+      "length" : 2616173,
+      "minSystemVersion" : "14.0",
+      "notes" : "Sweep's malware scanner now refuses any threat signature that isn't specific\nenough to name what it's looking for. A signature is meant to point at a\nparticular file or a narrow set of names; one that pointed at an entire folder\nwould have flagged everything inside it — and flagged items arrive already\nticked. Nothing like that ever shipped, and now nothing like it can: the rule is\nenforced in the app itself and re-checked every time Sweep starts.\n\nRelease notes like this one now travel with the release automatically, so the\nUpdate panel tells you what actually changed instead of pointing you elsewhere.",
+      "pubDate" : "2026-09-05",
+      "sha256" : "3365e3a46c6c6127f599d44f2242a6ddb7f8163b95ef7a891e5faec85cffc605",
+      "title" : "Sweep 0.5.2",
+      "url" : "https://github.com/olugbengaogun/sweep-releases/releases/download/v0.5.2/Sweep-0.5.2.zip",
+      "version" : "0.5.2"
+    },
+    {
       "build" : "14",
       "edSignature" : "FxfvXMrPmOwSO7+34yjuCUFQ9Kait/W/Afsojja6v0HOPqbm5B5gCH48kH6BukdTmMOhPnDmIfTfRj7Q1CtYBg==",
       "length" : 2613949,
