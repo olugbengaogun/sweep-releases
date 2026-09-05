@@ -2,6 +2,18 @@
   "feedVersion" : 1,
   "items" : [
     {
+      "build" : "12",
+      "edSignature" : "mOAH+3rdewW+tkrotBzQJ0ijnytH27BQL/L+TZWlguz22a3mvMhtmc1hphvUPZFKvMnL2WEpEuY4x8EStyDZCA==",
+      "length" : 2597634,
+      "minSystemVersion" : "14.0",
+      "notes" : "See the GitHub release for details.",
+      "pubDate" : "2026-09-05",
+      "sha256" : "4271ec6e2dd1bfede4a81f743e0065d782cd26e5cdb87b02998e0a87935abd21",
+      "title" : "Sweep 0.5.0",
+      "url" : "https://github.com/olugbengaogun/sweep-releases/releases/download/v0.5.0/Sweep-0.5.0.zip",
+      "version" : "0.5.0"
+    },
+    {
       "build" : "10",
       "edSignature" : "46nNNQyjD9lvMHGFmhorBqZ06cYWzHlGzCIcu2l//ZxaxnOk+kdfKphcr20YtZCNh1esvfEofcdMN6LaAwrhCw==",
       "length" : 2429420,
