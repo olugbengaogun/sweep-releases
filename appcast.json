@@ -2,13 +2,13 @@
   "feedVersion" : 1,
   "items" : [
     {
-      "build" : "12",
-      "edSignature" : "mOAH+3rdewW+tkrotBzQJ0ijnytH27BQL/L+TZWlguz22a3mvMhtmc1hphvUPZFKvMnL2WEpEuY4x8EStyDZCA==",
-      "length" : 2597634,
+      "build" : "13",
+      "edSignature" : "GJS88cJ/qiPZwBPL6asePuX/iMaCvosIM41q+Fd+7EG/uUzrYvQjcBPiLWztBniN560cyWWk8AfS6EiP3PREBA==",
+      "length" : 2597645,
       "minSystemVersion" : "14.0",
-      "notes" : "See the GitHub release for details.",
+      "notes" : "Now you choose what gets cleaned, app by app.\n\nOpen any category in your scan results to see exactly what's inside it — real app names and icons, biggest first — and untick anything you'd rather keep. Sweep remembers that choice for good, including when Autopilot tidies in the background.\n\nSome caches aren't really disposable, so Sweep now keeps a few by default and tells you why: Spotify's holds music you've already streamed, and iCloud's can hold changes that haven't finished uploading. Adobe, Steam, Docker, OneDrive, Google Drive and developer package caches are kept too — they're slow or expensive to rebuild. Every one of them is still a single click from being cleaned, kept space is always shown rather than hidden, and you can review or undo everything you're keeping in Settings.",
       "pubDate" : "2026-09-05",
-      "sha256" : "4271ec6e2dd1bfede4a81f743e0065d782cd26e5cdb87b02998e0a87935abd21",
+      "sha256" : "c83bd3cae6aaf7e603489ea5c76c45dc3eae2e2f377393517953da8c38fda010",
       "title" : "Sweep 0.5.0",
       "url" : "https://github.com/olugbengaogun/sweep-releases/releases/download/v0.5.0/Sweep-0.5.0.zip",
       "version" : "0.5.0"
